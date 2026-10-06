@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>9ab51ea5-38f6-4d70-9140-2b6275ea73aa</Id>
-  <Version>1.3.0.2</Version>
+  <Version>1.3.0.3</Version>
   <ProviderName>Findex Innovation Hub</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="AskDex"/>
@@ -138,7 +138,7 @@
            Without this block Office will not issue API-scoped tokens. -->
       <WebApplicationInfo>
         <Id>cea78282-d80c-4914-8ddc-5e5dcb267b52</Id>
-        <Resource>api://cea78282-d80c-4914-8ddc-5e5dcb267b52</Resource>
+        <Resource>api://outlook.askdex.findex.solutions/cea78282-d80c-4914-8ddc-5e5dcb267b52</Resource>
         <Scopes>
           <Scope>openid</Scope>
           <Scope>profile</Scope>
