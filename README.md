@@ -17,8 +17,7 @@ at `https://fdxinnovationhub.github.io/askdex-addin-icons/icon-<size>.png`. Ever
 
 ## Files
 
-`icon-16.png`, `icon-32.png`, `icon-64.png`, `icon-80.png`, `icon-128.png` — the AskDex
-speech-bubble mark, transparent background, legible on both light and dark ribbons.
+`icon-16.png`, `icon-32.png`, `icon-64.png`, `icon-80.png`, `icon-128.png` — the AskDex logo (white-background wordmark), the add-in's standard icon set.
 
 ## Updating
 
