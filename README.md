@@ -26,3 +26,13 @@ Replace a PNG and push to `main`; GitHub Pages redeploys. Because manifest icon 
 snapshotted by Microsoft at validation time, after changing an icon you must also bump the
 add-in manifest `<Version>` and click **Update** on the app in Integrated Apps so Microsoft
 re-fetches. Prefer changing the filename (e.g. `icon-32.v2.png`) for a guaranteed refresh.
+
+## Manifest
+
+`manifest.xml` is also published here so Integrated Apps can validate it by URL
+(the add-in's own `office.askdex…` domain is internal and not publicly fetchable):
+
+    https://fdxinnovationhub.github.io/askdex-addin-icons/manifest.xml
+
+Source of truth is `askdex-add-in/manifest.xml` in the ask-dex-M365 repo. When that
+changes, copy it here and push, then bump `<Version>` and re-validate in Integrated Apps.
